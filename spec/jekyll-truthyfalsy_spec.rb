@@ -8,6 +8,7 @@ RSpec.describe Jekyll::TruthyFalsy do
 
   let(:dummy) { DummyClass.new }
 
+  # Truthy values
   describe '.istruthy' do
     it 'returns true for non-empty string' do
       expect(dummy.istruthy('hello')).to be(true)
@@ -28,8 +29,17 @@ RSpec.describe Jekyll::TruthyFalsy do
     it 'returns false for nil' do
       expect(dummy.istruthy(nil)).to be(false)
     end
-  end
 
+    it 'returns true for integer 1' do
+      expect(dummy.istruthy(1)).to be(true)
+    end
+
+    it 'returns false for integer 0' do
+      expect(dummy.istruthy(0)).to be(false)
+    end
+  end
+  
+  # Falsy values
   describe '.isfalsy' do
     it 'returns false for non-empty string' do
       expect(dummy.isfalsy('hello')).to be(false)
@@ -49,6 +59,14 @@ RSpec.describe Jekyll::TruthyFalsy do
 
     it 'returns true for nil' do
       expect(dummy.isfalsy(nil)).to be(true)
+    end
+
+    it 'returns false for integer 1' do
+      expect(dummy.isfalsy(1)).to be(false)
+    end
+
+    it 'returns true for integer 0' do
+      expect(dummy.isfalsy(0)).to be(true)
     end
   end
 end

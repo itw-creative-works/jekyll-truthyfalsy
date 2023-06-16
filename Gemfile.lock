@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-truthyfalsy (1.0.1)
+    jekyll-truthyfalsy (1.0.2)
       jekyll (>= 3.0, < 5.0)
 
 GEM
