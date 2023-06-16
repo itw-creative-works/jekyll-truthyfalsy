@@ -5,4 +5,6 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in jekyll-truthyfalsy.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
+if ENV["JEKYLL_VERSION"]
+  gem "jekyll", "~> #{ENV["JEKYLL_VERSION"]}"
+end
