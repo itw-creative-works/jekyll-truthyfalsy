@@ -1,5 +1,5 @@
 module Jekyll
-  module IstruthyFalsyFilter
+  module TruthyFalsy
     def istruthy(input)
       !(input.nil? || input == '' || input == false)
     end
@@ -10,4 +10,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_filter(Jekyll::IstruthyFalsyFilter)
+Liquid::Template.register_filter(Jekyll::TruthyFalsy)
