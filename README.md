@@ -33,9 +33,9 @@ Yes, this module works in both Node and browser environments, including compatib
 * Exposes a `isfalsy` function
 
 # Jekyll::truthyfalsy
-Meet `jekyll-truthyfalsy`, the whimsical gem dedicated to turning the grey areas of truthiness and falsiness into black and white. 
+Meet `jekyll-truthyfalsy`, the whimsical gem dedicated to turning the grey areas of truthiness and falsiness into black and white.
 
-It doesn't just settle for mere booleans; oh no, it goes above and beyond, scrutinizing empty strings and null values too! Like a tenacious detective, it leaves no stone unturned, and no value unverified. Banish the verbose 'if' statements and welcome a new era of compact, expressive checks. 
+It doesn't just settle for mere booleans; oh no, it goes above and beyond, scrutinizing empty strings and null values too! Like a tenacious detective, it leaves no stone unturned, and no value unverified. Banish the verbose 'if' statements and welcome a new era of compact, expressive checks.
 
 Because life is too short for ambiguity, embrace the certainty that comes with `jekyll-truthyfalsy`. Truthiness and falsiness: not just a philosophical quandary, but a .gem installation away!
 
@@ -102,6 +102,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ### Building and pushing
 Run the tests
 ```shell
+bundle install
 bundle exec rspec
 ```
 
