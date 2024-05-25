@@ -18,14 +18,11 @@
   <img src="https://img.shields.io/github/last-commit/itw-creative-works/jekyll-truthyfalsy.svg">
   <br>
   <br>
-  <a href="https://itwcreativeworks.com">Site</a> | <a href="https://www.npmjs.com/package/jekyll-truthyfalsy">NPM Module</a> | <a href="https://github.com/itw-creative-works/jekyll-truthyfalsy">GitHub Repo</a>
+  <a href="https://itwcreativeworks.com">Site</a> | <a href="https://rubygems.org/gems/jekyll-truthyfalsy">Gem Page</a> | <a href="https://github.com/itw-creative-works/jekyll-truthyfalsy">GitHub Repo</a>
   <br>
   <br>
   Meet <strong>jekyll-truthyfalsy</strong>, the Sherlock Holmes of truthy and falsy values in Liquid.
 </p>
-
-## jekyll-truthyfalsy Works in Node AND browser environments
-Yes, this module works in both Node and browser environments, including compatibility with [Webpack](https://www.npmjs.com/package/webpack) and [Browserify](https://www.npmjs.com/package/browserify)!
 
 ## Features
 * Check whether a value is **truthy** or **falsy** in a manner similar to JavaScript
